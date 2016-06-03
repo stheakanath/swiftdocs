@@ -36,3 +36,7 @@ class CustomButton: UIButton {
 	// Do your set up here
     }
 }
+
+// set this in the first view controller before pushing it to the new viewcontroller
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
+
